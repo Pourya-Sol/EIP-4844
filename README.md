@@ -1,5 +1,5 @@
 # EIP-4844
-Blob usage in transactions
+Analysis of Blob Usage in Transactions
 
 
 We have collected blob usage in Ethereum blocks from May 1st to August 31st, 2024, which corresponds to Ethereum blocks from #19771560 to #20651993. The figures below (plot_results.py) show the daily rate of zero blob blocks (upper-left), BTXs issued over time (upper-right), mean blob usage per BTX (lower-left) and mean blob usage per block considering zero blob blocks as well (lower-right). During this time, almost 39% of blocks were devoid of blobs while mean blob-carrying transaction (BTX) rate was 1.19 per block with mean blob usage of 1.93 per BTX. However, as figures demonstrate, a shift in blob usage is evident near June 1st, which is more apparent in the upper figures.
